@@ -1,0 +1,63 @@
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+	padding: 2em;
+	width: 20px;
+}
+
+td,
+a {
+    text-align: center;
+	color: #fff
+}
+
+th[scope="col"] {
+    background-color: rgb(240, 240, 240);
+	cursor: url(hand.cur), pointer;
+}
+
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.note {
+	background-color: #FF5733;
+	color: #FF5733;
+}
+
+a {
+	color: #000000;
+}
+
+.text {
+	color: #2FE73F;
+}
+
+.cellone {
+	background-color: #CC8FD7
+}
+
+.celltwo {
+	background-color: #8FBCD7
+}
+
+.cellthree {
+	background-color: #F3DE8B
+}
+
+.cellfour {
+	background-color: #F3DE8B
+}
+
+.cellfive {
+	background-color: #F3DE8B
+}
+
+@media (hover: hover) {
+  td:hover {
+    background: yellow;
+  }
+}
